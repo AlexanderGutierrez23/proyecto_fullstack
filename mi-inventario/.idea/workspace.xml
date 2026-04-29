@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0695ce9-26c3-49e5-82b4-008aba944435" name="Changes" comment="Model,Controller,Service,Repository Creados.&#10;&#10;No se puede continuar hasta la creacion de boleta y el arreglo de admusuario.">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-admusuario/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admusuario/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-bodega/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-bodega/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-boleta/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-boleta/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-categoria/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-categoria/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-productos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-productos/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-proveedores/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-proveedores/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reponer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reponer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reportes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reportes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-stock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-stock/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-ventas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-ventas/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d0695ce9-26c3-49e5-82b4-008aba944435" name="Changes" comment="Model,Controller,Service,Repository Creados.&#10;&#10;No se puede continuar hasta la creacion de boleta y el arreglo de admusuario." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777396148526</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Model,Controller,Service,Repository Creados.&#10;&#10;No se puede continuar hasta la creacion de boleta y el arreglo de admusuario.">
+      <option name="closed" value="true" />
+      <created>1777469538694</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777469538694</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
