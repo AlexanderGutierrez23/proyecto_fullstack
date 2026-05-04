@@ -1,7 +1,7 @@
-package com.example.ADMUsuarios.controller;
+package com.example.ms-admusuario.controller;
 
-import com.example.ADMUsuarios.service.UsuarioService;
-import com.example.ADMUsuarios.model.Usuarios;
+import com.example.ms-admusuario.service.UsuarioService;
+import com.example.ms-admusuario.model.Usuarios;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

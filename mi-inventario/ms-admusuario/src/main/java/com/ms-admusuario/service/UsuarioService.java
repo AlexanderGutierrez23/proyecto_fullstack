@@ -1,7 +1,7 @@
-package com.example.ADMUsuarios.service;
+package com.example.ms-admusuario.service;
 
-import com.example.ADMUsuarios.repository.UsuariosRepository;
-import com.example.ADMUsuarios.model.Usuarios;
+import com.example.ms-admusuario.repository.UsuariosRepository;
+import com.example.ms-admusuario.model.Usuarios;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
