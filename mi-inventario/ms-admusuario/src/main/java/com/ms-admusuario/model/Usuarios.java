@@ -18,9 +18,9 @@ public class Usuarios {
     private int Telefono;
     private LocalDate fechaRegistro;
     private Double sueldo;
-    private com.example.ADMUsuarios.model.Tipo tipo;
-    private com.example.ADMUsuarios.model.Estado estado;
-    private com.example.ADMUsuarios.model.Tipo_Trabajo tipoTrabajo;
+    private com.example.ms-admusuario.model.Tipo tipo;
+    private com.example.ms-admusuario.model.Estado estado;
+    private com.example.ms-admusuario.model.Tipo_Trabajo tipoTrabajo;
 
     public long getId() {
         return id;
@@ -86,27 +86,27 @@ public class Usuarios {
         this.sueldo = sueldo;
     }
 
-    public com.example.ADMUsuarios.model.Tipo getTipo() {
+    public com.example.ms-admusuario.model.Tipo getTipo() {
         return tipo;
     }
 
-    public void setTipo(com.example.ADMUsuarios.model.Tipo tipo) {
+    public void setTipo(com.example.ms-admusuario.model.Tipo tipo) {
         this.tipo = tipo;
     }
 
-    public com.example.ADMUsuarios.model.Estado getEstado() {
+    public com.example.ms-admusuario.model.Estado getEstado() {
         return estado;
     }
 
-    public void setEstado(com.example.ADMUsuarios.model.Estado estado) {
+    public void setEstado(com.example.ms-admusuario.model.Estado estado) {
         this.estado = estado;
     }
 
-    public com.example.ADMUsuarios.model.Tipo_Trabajo getTipoTrabajo() {
+    public com.example.ms-admusuario.model.Tipo_Trabajo getTipoTrabajo() {
         return tipoTrabajo;
     }
 
-    public void setTipoTrabajo(com.example.ADMUsuarios.model.Tipo_Trabajo tipoTrabajo) {
+    public void setTipoTrabajo(com.example.ms-admusuario.model.Tipo_Trabajo tipoTrabajo) {
         this.tipoTrabajo = tipoTrabajo;
     }
 }

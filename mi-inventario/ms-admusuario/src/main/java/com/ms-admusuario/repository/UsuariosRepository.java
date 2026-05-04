@@ -1,6 +1,6 @@
 package com.example.ms-admusuario.repository;
 
-import com.example.ADMUsuarios.model.Usuarios;
+import com.example.ms-admusuario.model.Usuarios;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
