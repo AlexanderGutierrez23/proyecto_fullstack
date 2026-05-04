@@ -10,8 +10,8 @@
         <module name="ms-reponer" />
         <module name="ms-admusuario" />
         <module name="ms-boleta" />
-        <module name="ms-proveedores" />
         <module name="ms-bodega" />
+        <module name="ms-proveedores" />
         <module name="ms-reportes" />
         <module name="ms-productos" />
         <module name="ms-stock" />

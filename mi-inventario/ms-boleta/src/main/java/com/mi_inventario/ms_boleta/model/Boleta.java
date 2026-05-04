@@ -2,6 +2,9 @@ package com.mi_inventario.ms_boleta.model;
 
 import java.time.*;
 
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,20 +12,26 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
+@Table (name = "boleta")
 public class Boleta {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @NotNull
     private Long id;
 
-    private LocalDate fecha;
-    private ESTADO estado;
-    private METODO_PAGO metodoPago;
-    private double monto;
+    @NotNull
+    @Column (name = "fecha") private LocalDate fecha;
 
-    /*
-    RECORDATORIO: AGREGAR EL ADMUSUARIO CUANDO ESTE LISTO :(
-    TAMBIEN EN CASO DE QUE LOMBOK NO FUNCIONE :)
-    28/04/2026 - buhduoc
-     */
+    @NotBlank
+    @Column (name = "estado") private ESTADO estado;
+
+    @NotBlank
+    @Column (name = "metodo_pago") private METODO_PAGO metodoPago;
+
+    @NotBlank
+    @Column (name = "monto") private double monto;
 
     public Long getId() {
         return id;

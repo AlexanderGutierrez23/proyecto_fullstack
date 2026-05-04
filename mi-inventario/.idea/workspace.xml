@@ -4,6 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="d0695ce9-26c3-49e5-82b4-008aba944435" name="Changes" comment="Model,Controller,Service,Repository Creados.&#10;&#10;No se puede continuar hasta la creacion de boleta y el arreglo de admusuario.">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-boleta/src/main/java/com/mi_inventario/ms_boleta/controller/boletaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-boleta/src/main/java/com/mi_inventario/ms_boleta/controller/boletaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-boleta/src/main/java/com/mi_inventario/ms_boleta/model/Boleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-boleta/src/main/java/com/mi_inventario/ms_boleta/model/Boleta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-boleta/src/main/java/com/mi_inventario/ms_boleta/service/boletaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-boleta/src/main/java/com/mi_inventario/ms_boleta/service/boletaService.java" afterDir="false" />
+    </list>
     <list default="true" id="d0695ce9-26c3-49e5-82b4-008aba944435" name="Changes" comment="Model,Controller,Service,Repository Creados.&#10;&#10;No se puede continuar hasta la creacion de boleta y el arreglo de admusuario." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="ventas" />
+        <entry key="$PROJECT_DIR$/.." value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -32,12 +39,20 @@
     &quot;assignee&quot;: &quot;buhduoc&quot;
   }
 }</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AlexanderGutierrez23/proyecto_fullstack&quot;,
+    &quot;accountId&quot;: &quot;2e277c0e-4cdf-4f83-8f61-48a97a54999a&quot;
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/AlexanderGutierrez23/proyecto_fullstack.git",
     "accountId": "d2e8f44c-8e65-4b5b-9a08-0463e940429f"
   }
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -51,6 +66,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -168,6 +187,7 @@
       <updated>1777323933020</updated>
       <workItem from="1777323934088" duration="2506000" />
       <workItem from="1777395695887" duration="1734000" />
+      <workItem from="1777926933590" duration="3089000" />
     </task>
     <task id="LOCAL-00001" summary="Model,Controller,Service,Repository Creados.&#10;&#10;No se puede continuar hasta la creacion de boleta y el arreglo de admusuario.">
       <option name="closed" value="true" />
