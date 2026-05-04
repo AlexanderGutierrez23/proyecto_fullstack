@@ -1,4 +1,4 @@
-package com.example.ADMUsuarios.repository;
+package com.example.ms-admusuario.repository;
 
 import com.example.ADMUsuarios.model.Usuarios;
 import jakarta.persistence.EntityManager;

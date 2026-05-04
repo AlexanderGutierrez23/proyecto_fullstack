@@ -1,4 +1,4 @@
-package com.example.ADMUsuarios.model;
+package com.example.ms-admusuario.model;
 
 import java.time.LocalDate;
 import jakarta.persistence.*;

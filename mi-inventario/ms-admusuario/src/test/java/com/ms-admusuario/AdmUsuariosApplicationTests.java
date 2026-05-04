@@ -1,4 +1,4 @@
-package com.example.ADMUsuarios;
+package com.example.ms-admusuario;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

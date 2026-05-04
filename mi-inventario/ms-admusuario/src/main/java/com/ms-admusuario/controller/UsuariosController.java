@@ -1,4 +1,4 @@
-package com.example.ADMUsuarios.controller;
+package com.example.ms-admusuario.controller;
 
 import com.example.ADMUsuarios.service.UsuarioService;
 import com.example.ADMUsuarios.model.Usuarios;

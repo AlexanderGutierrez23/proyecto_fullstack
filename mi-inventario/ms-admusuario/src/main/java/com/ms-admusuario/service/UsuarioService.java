@@ -1,4 +1,4 @@
-package com.example.ADMUsuarios.service;
+package com.example.ms-admusuario.service;
 
 import com.example.ADMUsuarios.repository.UsuariosRepository;
 import com.example.ADMUsuarios.model.Usuarios;
