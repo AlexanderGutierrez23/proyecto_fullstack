@@ -36,9 +36,9 @@ public class categoriaRepository {
 
     public void borrarCategoria (Long id) {
         categoriaModel cat = entityManager.find(categoriaModel.class, id);
-            if (cat != null) {
-                entityManager.remove(cat);
-            }
+        if (cat != null) {
+            entityManager.remove(cat);
+        }
     }
 
 }

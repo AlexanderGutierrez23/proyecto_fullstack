@@ -3,7 +3,6 @@ package com.mi_inventario.ms_categoria.model;
 import jakarta.persistence.*;
 import lombok.*;
 
-
 @Entity
 @Table (name = "categoria")
 @Data

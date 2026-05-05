@@ -39,4 +39,5 @@ public class categoriaService {
         categoriaExistente.setEstado(cat.getEstado());
         return catRepo.guardarCategoria(categoriaExistente);
     }
+
 }
