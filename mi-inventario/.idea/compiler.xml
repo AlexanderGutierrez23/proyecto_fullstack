@@ -18,9 +18,13 @@
         <module name="ms-ventas" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ms-admusuari" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ms-admusuari" options="-parameters" />
       <module name="ms-admusuario" options="-parameters" />
       <module name="ms-bodega" options="-parameters" />
       <module name="ms-boleta" options="-parameters" />
