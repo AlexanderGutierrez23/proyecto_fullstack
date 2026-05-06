@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  # Base de Datos única para los 10 microservicios
+  db_mysql:
+    image: mysql:8.0
+    container_name: mysql_quickorder
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      # Script para crear las 10 bases de datos al iniciar
+      - ./init-db:/docker-entrypoint-initdb.d
+      - mysql_data:/var/lib/mysql
+    ports:
+      - "3307:3306"
+
+  # MICROSERVICIOS
+
+
+volumes:
+  mysql_data:
