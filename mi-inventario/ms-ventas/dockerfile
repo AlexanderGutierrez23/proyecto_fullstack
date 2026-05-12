@@ -1,0 +1,24 @@
+FROM ghcr.io/graalvm/native-image-community:17-ol9 AS build
+WORKDIR /app
+
+# Copiamos el POM padre y el código del microservicio
+# Nota: Docker necesita el contexto del padre para resolver dependencias
+COPY ../pom.xml ./pom.xml
+COPY . .
+
+# Construimos el binario nativo
+RUN ./mvnw -Pnative native:compile -DskipTests
+
+# Etapa 2: Imagen de ejecución ultra ligera
+FROM debian:bookworm-slim
+WORKDIR /app
+
+# Copiamos solo el binario ejecutable desde la etapa anterior
+# El nombre del binario suele ser el artifactId definido en el pom.xml del hijo
+COPY --from=build /app/target/ms-pedidos /app/ms-pedidos
+
+# Exponemos el puerto interno del microservicio
+EXPOSE 8080
+
+# Ejecutamos el binario directamente (sin JVM)
+ENTRYPOINT ["/app/ms-pedidos"]

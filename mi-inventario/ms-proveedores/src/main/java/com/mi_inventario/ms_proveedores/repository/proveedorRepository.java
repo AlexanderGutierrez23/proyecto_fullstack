@@ -20,20 +20,21 @@ public class proveedorRepository {
     }
 
     //guardar
-    public proveedorModel guardarProveedor(proveedorModel pro){
-        if(pro.getId()==null){
+    public proveedorModel guardarProveedor(proveedorModel pro) {
+        if (pro.getId() == null) {
             em.persist(pro);
             return pro;
-        }else{
+        } else {
             return em.merge(pro);
         }
     }
+    //obtener por id
+    public proveedorModel buscarProveedorPorId(Long id){
+        return em.find(proveedorModel.class,id);
+    }
 
-    //Buscar por id
-    public proveedorModel buscarProveedorPorId(Long id){return em.find(proveedorModel.class,id);}
-
-   //Eliminar
-   public void eliminar (Long id){
+    //eliminar
+    public void eliminar (Long id) {
         proveedorModel p = em.find(proveedorModel.class,id);
         if(p!=null){
             em.remove(p);
