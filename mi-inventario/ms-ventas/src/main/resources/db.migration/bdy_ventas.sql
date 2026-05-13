@@ -1,0 +1,6 @@
+CREATE TABLE ventas {
+    id LONG PRIMARY KEY AUTO_INCREMENT,
+    productos VARCHAR(40) NOT NULL,
+    total NUMBER NOT NULL,
+    estado VARCHAR(20) NOT NULL
+    }
