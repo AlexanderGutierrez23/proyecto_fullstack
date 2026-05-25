@@ -1,3 +1,4 @@
+#"claude 2.0
 version: '3.8'
 
 services:
@@ -145,21 +146,7 @@ services:
     depends_on:
       - db_mysql
 
-  ms-stock:
-    build:
-      context: ./ms-stock # Ruta a la carpeta del hijo
-      dockerfile: Dockerfile
-    container_name: ms-stock
-    environment:
-      - SPRING_DATASOURCE_URL=jdbc:mysql://db_mysql:3306/db_pedidos
-      - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=root
-    deploy:
-      resources:
-        limits:
-          memory: 128M # Límite estricto para ahorrar RAM
-    depends_on:
-      - db_mysql
+
 
   ms-ventas:
     build:
